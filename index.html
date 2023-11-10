@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Controle Escolar</title>
+</head>
+<body>
+    <h1>Controle Escolar</h1>
+    <div id="container">
+        <div class="semester">
+            <h2>Semestre 1</h2>
+            <label for="grade1">Nota:</label>
+            <input type="number" id="grade1" min="0" max="25">
+            <label for="attendance1">Frequência:</label>
+            <input type="number" id="attendance1" min="0" max="100">
+        </div>
+        <div class="semester">
+            <h2>Semestre 2</h2>
+            <label for="grade2">Nota:</label>
+            <input type="number" id="grade2" min="0" max="25">
+            <label for="attendance2">Frequência:</label>
+            <input type="number" id="attendance2" min="0" max="100">
+        </div>
+        <div class="semester">
+            <h2>Semestre 3</h2>
+            <label for="grade3">Nota:</label>
+            <input type="number" id="grade3" min="0" max="25">
+            <label for="attendance3">Frequência:</label>
+            <input type="number" id="attendance3" min="0" max="100">
+        </div>
+        <div class="semester">
+            <h2>Semestre 4</h2>
+            <label for="grade4">Nota:</label>
+            <input type="number" id="grade4" min="0" max="25">
+            <label for="attendance4">Frequência:</label>
+            <input type="number" id="attendance4" min="0" max="100">
+        </div>
+    </div>
+    <button id="calculateButton">Resultado Final</button>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>

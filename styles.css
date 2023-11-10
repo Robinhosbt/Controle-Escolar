@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.semester {
+    border: 1px solid #1d1c1c;
+    padding: 10px;
+    text-align: center;
+}
+
+#calculateButton {
+    background-color: #050404;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
